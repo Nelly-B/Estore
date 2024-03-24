@@ -24,8 +24,8 @@ def account(request):
 def wishlist(request):
     return render(request, 'menu_pages/wishlist.html')
 
-def  login_register(request):
-    return render(request, 'menu_pages/register.html')
+# def  login_register(request):
+#     return render(request, 'menu_pages/register.html')
 
 def  contact(request):
     return render(request, 'menu_pages/contact.html')

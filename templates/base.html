@@ -48,7 +48,7 @@
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
                             <div class="dropdown-menu">
                                 <a href="{% url 'wish' %}" class="dropdown-item">Wishlist</a>
-                                <a href="{% url 'register' %}" class="dropdown-item">Login & Register</a>
+                                <a href="{% url 'account:register' %}" class="dropdown-item">Login & Register</a>
                                 <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Login</a>
-                                <a href="#" class="dropdown-item">Register</a>
+                                <a href="{% url 'account:login' %}" class="dropdown-item">Login</a>
+                                <a href="{% url 'account:register'  %}" class="dropdown-item">Register</a>
                             </div>
                         </div>
                     </div>
